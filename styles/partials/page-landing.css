@@ -104,24 +104,29 @@ height: 10 rem;
         column-gap: 87px;
         row-gap: 86px;
     }
+
     .logo-container{
         grid-area: proffy;
         text-align: initial;
         align-self: center;
         margin: 0;
     }
+
     .logo-container img{
         height: 127px;
     }
+
     .hero-image{
         grid-area: image;
         height: 350px;
     }
+
     .buttons-container{
         grid-area: button;
         justify-content: flex-start;
         margin: 0;
     }
+    
     .total-connections{
         grid-area: texting;
         justify-self: end;
